@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: static;
+}
+#answer-num {
+  width: 510px;
+  font-size: 28px;
+  padding: 25px;
+  background-color: #ffa600;
+}
+
+div {
+  background-color: #ff3f0a;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px #120606;
+  cursor: pointer;
+}
+div:hover {
+  box-shadow: 3px 3px 3px 3px #804106;
+}
+
+.calculator {
+  gap: 1rem;
+  background-color: #804106;
+  border: 20px solid;
+  justify-content: center;
+  align-items: center;
+}
+.role {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(132, 130, 129);
+  gap: 1rem;
+  padding: 1px 1px 1px 1px;
+}
+.equalrole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  gap: 1rem;
+  width: 510px;
+}
