@@ -29,4 +29,5 @@ plus.addEventListener("click", function () {
 equal.addEventListener("click", function () {
   tempTwo = answerNum.value; //12
   answerNum.value = parseInt(tempOne) + parseInt(tempTwo);
+  
 });
